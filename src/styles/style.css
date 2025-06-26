@@ -33,7 +33,7 @@ li {
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
   font-family: "Kanit", sans-serif;
 }
 
@@ -64,25 +64,26 @@ body {
 
 img {
   width: 100%;
-  max-width: 100%; 
-  margin-top: 2%;
+  max-width: 100%;
+  margin-top: 0%;
 }
 
 img.imglogo {
-  width: 130px;
-  max-width: 130px;
+  width: 135px;
+  height: 68px;
+  max-width: 120px;
+  margin-left: 60px;
 
 }
 
 /* now style navbar */
-.navbar.navbar-expand-lg{
-  
+.navbar.navbar-expand-lg {
   box-shadow: #031840;
 }
 
-header .navbar.navbar-expand-lg{
+header .navbar.navbar-expand-lg {
   background: #031840;
- /* position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -93,9 +94,8 @@ header .navbar.navbar-expand-lg{
   z-index: 100;*/
 }
 
-
 a.navbar-brand {
-  width: 220px;
+  width: 200px;
   height: 70px;
   object-fit: contain;
 }
@@ -117,7 +117,7 @@ nav .navbar .nav-item .nav-link {
   text-decoration: none;
 }
 
-.navbar-icon a{
+.navbar-icon a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -284,33 +284,31 @@ nav .navbar .nav-item .nav-link {
   margin-left: auto;
 }
 
-.logo-slider{
-    padding: 30px;
-    background: #f8f8f8;
-    overflow: hidden;
+.logo-slider {
+  padding: 30px;
+  background: #f8f8f8;
+  overflow: hidden;
 }
 
 .logo-slider.container {
-  display: flex;          /* Ativa o Flexbox */
+  display: flex; /* Ativa o Flexbox */
   justify-content: center; /* Centraliza as imagens horizontalmente */
-  align-items: center;    /* Centraliza as imagens verticalmente */
-  flex-wrap: wrap; 
-  columns: none;       /* Permite que as imagens quebrem para a próxima linha se necessário */
+  align-items: center; /* Centraliza as imagens verticalmente */
+  flex-wrap: wrap;
+  columns: none; /* Permite que as imagens quebrem para a próxima linha se necessário */
 }
 
-.logo-img img{
-    width: 20%;
-    height: auto;
-    flex: 0 0 16%; 
-    margin: 10px;
-    columns: none;
-    
+.logo-img img {
+  width: 20%;
+  height: auto;
+  flex: 0 0 16%;
+  margin: 10px;
+  columns: none;
 }
 
-.logo-img{
-    width: 16%;
-    margin: auto;
-
+.logo-img {
+  width: 16%;
+  margin: auto;
 }
 
 /* lets style */
@@ -409,27 +407,27 @@ nav .navbar .nav-item .nav-link {
   width: 500px;
 }
 
-.mission-text{
+.mission-text {
   padding: 0;
   width: 85%;
 }
 
 /* lets style*/
-.footer{
+.footer {
   background: #031840;
 }
 
-.footer h4{
+.footer h4 {
   color: white;
   margin-bottom: 20px;
 }
 
-.footer ul li{
+.footer ul li {
   color: white;
   margin-bottom: 8px;
 }
 
-.call-box i{
+.call-box i {
   color: white;
   background: black;
   width: 35px;
@@ -439,48 +437,49 @@ nav .navbar .nav-item .nav-link {
   border-radius: 100%;
 }
 
-.call-box{
+.call-box {
   display: flex;
   margin-bottom: 20px;
   justify-content: space-between;
 }
 
-.call-box a{
+.call-box a {
   color: white;
   width: 80%;
 }
 
-.footer-logo{
-  width: 500px;
+.footer-logo {
+  margin-top: 20px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
-.footer-icon{
+.footer-icon {
   text-align: center;
   justify-content: center;
 }
 
-.footer p{
+.footer p {
   color: white;
   text-align: center;
 }
 
-.footer-box{
+.footer-box {
   width: 75;
 }
 
-.copyrights{
+.copyrights {
   text-align: center;
   padding: 10px;
   background: #031840;
   border-top: 1px solid #fff;
 }
 
-.copyrights a{
+.copyrights a {
   color: white;
 }
 
-.whats{
+.whats {
   position: fixed;
   width: 2;
   right: 2px;
